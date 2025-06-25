@@ -14,3 +14,13 @@ def n_gram(n, text):
     for j in range(len(word) - n+1):
         word_list.append(word[j:n+j])
     return char_list, word_list
+
+
+char, word = n_gram(2, 'I am an NLPer')
+print("文字bi-gram", char)
+print("単語bi-gram", word)
+print("-"*50)
+
+char, word = n_gram(2, ['I', 'am', 'an', 'NLPer'])
+print("文字bi-gram", char)
+print("単語bi-gram", word)

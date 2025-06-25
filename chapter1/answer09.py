@@ -14,3 +14,8 @@ def randomize_word(text):
     random.shuffle(middle)
     return text[0] + ''.join(middle) + text[-1]
     
+
+sentence = "I couldn’t believe that I could actually understand what I was reading : the phenomenal power of the human mind ."
+sentence = randomize_sentence(sentence)
+
+print(sentence)
