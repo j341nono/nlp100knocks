@@ -1,0 +1,1 @@
+cut -f 1 -d " " '../data/col1.txt'

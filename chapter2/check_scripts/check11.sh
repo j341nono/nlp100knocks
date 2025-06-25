@@ -1,0 +1,1 @@
+cat '../data/popular-names.txt' | sed 's/\t/ /'

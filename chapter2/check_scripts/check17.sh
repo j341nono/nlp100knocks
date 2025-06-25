@@ -1,0 +1,1 @@
+cut -d $'\t' -f 1 'data/popular-names.txt'|uniq
