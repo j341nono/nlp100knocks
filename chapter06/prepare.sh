@@ -8,4 +8,5 @@ rm -f /tmp/cookies.txt
 !wget -P data http://download.tensorflow.org/data/questions-words.txt
 
 !wget -P data https://www.gabrilovich.com/resources/data/wordsim353/wordsim353.zip
-unzip data/wordsim353
+unzip data/wordsim353.zip -d data/
+rm data/wordsim353.zip
